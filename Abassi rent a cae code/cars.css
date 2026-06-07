@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background: #f4f4f4;
+}
+
+header{
+  background: #243b55;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+.cars-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.car-card{
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.car-card:hover{
+  transform: translateY(-5px);
+}
+
+.car-card img{
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.car-card h2{
+  padding: 15px 15px 5px;
+  color: #243b55;
+}
+
+.car-card p{
+  padding: 0 15px 15px;
+  color: gray;
+}
+
+.car-card a{
+  display: block;
+  text-align: center;
+  background: #243b55;
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.car-card a:hover{
+  background: #141e30;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}

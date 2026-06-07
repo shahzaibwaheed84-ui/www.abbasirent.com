@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahzaib Rent A Car</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      min-height:100vh;
+      background: linear-gradient(135deg,#020617,#0f172a,#1e293b);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:30px;
+      color:white;
+    }
+
+    .card{
+      width:400px;
+      background:rgba(255,255,255,0.08);
+      border:1px solid rgba(255,255,255,0.15);
+      backdrop-filter: blur(12px);
+      border-radius:30px;
+      overflow:hidden;
+      box-shadow:0 15px 40px rgba(0,0,0,0.5);
+      transition:0.4s;
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+    }
+
+    .top{
+      background:linear-gradient(135deg,#25D366,#128C7E);
+      padding:35px 20px;
+      text-align:center;
+    }
+
+    .profile{
+      width:140px;
+      height:140px;
+      border-radius:50%;
+      border:5px solid white;
+      object-fit:cover;
+      box-shadow:0 0 25px rgba(255,255,255,0.5);
+    }
+
+    .content{
+      padding:25px;
+      text-align:center;
+    }
+
+    h1{
+      font-size:34px;
+      margin-bottom:10px;
+      color:#25D366;
+    }
+
+    .owner{
+      font-size:18px;
+      color:#cbd5e1;
+      margin-bottom:20px;
+    }
+
+    .info{
+      background:#111827;
+      padding:15px;
+      border-radius:18px;
+      margin-bottom:15px;
+      text-align:left;
+      line-height:1.8;
+      font-size:16px;
+    }
+
+    .about{
+      margin-top:15px;
+      background:rgba(255,255,255,0.06);
+      padding:18px;
+      border-radius:18px;
+      line-height:1.8;
+      color:#e2e8f0;
+      font-size:15px;
+    }
+
+    .services{
+      margin-top:20px;
+      text-align:left;
+    }
+
+    .services h2{
+      color:#25D366;
+      margin-bottom:10px;
+      text-align:center;
+    }
+
+    .services ul{
+      list-style:none;
+      line-height:2;
+      font-size:15px;
+      color:#f1f5f9;
+    }
+
+    .services ul li::before{
+      content:"✔ ";
+      color:#25D366;
+      font-weight:bold;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:25px;
+      padding:14px 30px;
+      background:#25D366;
+      color:white;
+      text-decoration:none;
+      border-radius:40px;
+      font-size:18px;
+      font-weight:bold;
+      transition:0.3s;
+      box-shadow:0 5px 15px rgba(37,211,102,0.4);
+    }
+
+    .btn:hover{
+      background:#1ebe5d;
+      transform:scale(1.05);
+    }
+
+    .footer{
+      margin-top:20px;
+      color:#94a3b8;
+      font-size:14px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="card">
+
+    <div class="top">
+      <img 
+      src="https://pps.whatsapp.net/v/t61.24694-24/473401368_1098462015628753_8149008374715283706_n.jpg?ccb=11-4&oh=01_Q5Aa4gGq4IPrGq6vN6jHr26Z4jBfNe5JOa57DUOhvBfjlzyMMg&oe=6A1D4EE2&_nc_sid=5e03e0&_nc_cat=105"
+      class="profile">
+    </div>
+
+    <div class="content">
+
+      <h1>Abbasi Rent A Car</h1>
+
+      <p class="owner">
+        Owner: <b>Shahzaib Abbasi</b>
+      </p>
+
+      <div class="info">
+        📞 Phone: 03006300802 <br>
+        📍 Location: Multan, Pakistan <br>
+        🚘 Service: Rent A Car <br>
+        ⏰ Available: 24/7
+      </div>
+
+      <div class="about">
+        Welcome to <b>Abbasi Rent A Car</b>.  
+        We provide luxury, comfortable and affordable cars for city travel, weddings, tours and family trips.  
+        Our mission is to give customers safe rides with premium quality service and professional behavior.
+      </div>
+
+      <div class="services">
+        <h2>Our Services</h2>
+
+        <ul>
+          <li>Luxury Cars Available</li>
+          <li>Wedding Cars</li>
+          <li>Family Tour Packages</li>
+          <li>Airport Pick & Drop</li>
+          <li>Affordable Prices</li>
+          <li>24/7 Customer Support</li>
+        </ul>
+      </div>
+
+      <a href="https://wa.me/923006300802" target="_blank" class="btn">
+        WhatsApp Now
+      </a>
+
+      <div class="footer">
+        © 2026 Abbasi Rent A Car | All Rights Reserved
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
